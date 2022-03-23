@@ -34,7 +34,7 @@ html {
     -webkit-transition: var(--main-transition);
     -moz-transition: var(--main-transition);
     -ms-transition: var(--main-transition);
-    -o-transition: var(--8main-transition);
+    -o-transition: var(--main-transition);
 }
 .main-header {
     display: flex;
@@ -204,6 +204,7 @@ html {
     padding: 15px;
 }
 .book form {
+    width: 100%;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -393,14 +394,14 @@ html {
     font-weight: bold;
     cursor: pointer;
 }
-.overly-box .box-img h2 {
+.overly-box .box-img h4 {
     text-align: center;
     padding: 10px;
     color: var(--main-color);
     font-weight: bold;
 }
 .overly-box .box-img img {
-    width: 100%;
+    max-width: 100%;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;

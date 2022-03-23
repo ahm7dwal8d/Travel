@@ -52,7 +52,7 @@ GalleryImg.forEach((img)=> {
 
         if (img.alt !== " ") {
 
-            let alt = document.createElement("h2")
+            let alt = document.createElement("h4")
 
             let altText = document.createTextNode(img.alt)
 
